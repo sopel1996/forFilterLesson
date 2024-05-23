@@ -1,0 +1,42 @@
+.filter_content {
+    display  : flex;
+    flex-wrap: wrap;
+
+
+}
+
+.filter_content div {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    width           : 100px;
+    height          : 100px;
+    padding         : 20px;
+    background-color: #7c7c7c;
+    color           : #000;
+    margin          : 10px;
+    font-size       : 40px;
+    font-weight     : bold;
+    font-family     : sans-serif;
+}
+
+.filter_btns {
+    display: flex;
+
+}
+
+.btn {
+    border         : 1px solid gray;
+    border-radius  : 8px;
+    width          : 100px;
+    height         : 20px;
+    margin         : 10px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    cursor         : pointer;
+}
+
+.active {
+    background-color: gray;
+}
